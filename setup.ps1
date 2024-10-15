@@ -26,7 +26,6 @@ function Install-Fonts {
     .\fonts.ps1
     Write-Host "Fonts installed successfully." -ForegroundColor Magenta
 }
-    
 Install-Packages
 Copy-Profile
 Copy-Settings
