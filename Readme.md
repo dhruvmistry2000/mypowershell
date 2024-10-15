@@ -1,6 +1,6 @@
 # Welcome to the Setup Script Repository
 
-![alt text](preview.png)
+![alt text](image.png)
 
 This repository contains a collection of PowerShell scripts designed to streamline the process of setting up a new Windows environment. The scripts automate the installation of essential packages, configuration of the PowerShell profile, and customization of the Windows Terminal settings.
 
