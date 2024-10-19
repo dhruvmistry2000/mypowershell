@@ -52,7 +52,7 @@
                 "face": "Hack Nerd Font Propo"
             },
             "opacity": 42,
-            "startingDirectory": "C:\\Users\\dhruv\\Desktop",
+            "startingDirectory": "%USERPROFILE%\\Desktop",
             "useAcrylic": true
         },
         "list": 
