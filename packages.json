@@ -8,9 +8,6 @@
 					"PackageIdentifier": "Git.Git"
 				},
 				{
-					"PackageIdentifier": "Mozilla.Firefox"
-				},
-				{
 					"PackageIdentifier": "LizardByte.Sunshine"
 				},
 				{
@@ -23,13 +20,7 @@
 					"PackageIdentifier": "Microsoft.VCRedist.2010.x64"
 				},
 				{
-					"PackageIdentifier": "Amazon.AWSCLI"
-				},
-				{
 					"PackageIdentifier": "Google.Chrome"
-				},
-				{
-					"PackageIdentifier": "Nvidia.PhysX"
 				},
 				{
 					"PackageIdentifier": "Microsoft.PowerShell"
