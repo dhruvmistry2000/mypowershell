@@ -1,12 +1,17 @@
 function Install-Packages {
-    Write-Host "Checking if winget is installed..." -ForegroundColor Green
-    if (!(Get-Command winget -ErrorAction SilentlyContinue)) {
-        Write-Host "Winget is not installed. Installing it now..." -ForegroundColor Green
-        iex "Invoke-WebRequest -Uri https://aka.ms/installwinget -UseBasicParsing"
+    $response = Read-Host "Do you want to install packages? (yes/no)"
+    if ($response -eq "yes") {
+        Write-Host "Checking if winget is installed..." -ForegroundColor Green
+        if (!(Get-Command winget -ErrorAction SilentlyContinue)) {
+            Write-Host "Winget is not installed. Installing it now..." -ForegroundColor Green
+            Start-Process powershell "Invoke-WebRequest -Uri https://aka.ms/installwinget -UseBasicParsing" -Wait
+        }
+        Write-Host "Winget is installed. Installing packages..." -ForegroundColor Green
+        Start-Process winget -ArgumentList "import -i .\packages.json" -Wait
+        Write-Host "Packages installed successfully." -ForegroundColor Green
+    } else {
+        Write-Host "Package installation cancelled." -ForegroundColor Green
     }
-    Write-Host "Winget is installed. Installing packages..." -ForegroundColor Green
-    winget import -i .\packages.json
-    Write-Host "Packages installed successfully." -ForegroundColor Green
 }
 
 function Copy-Profile {
