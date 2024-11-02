@@ -5,10 +5,10 @@
     {
       "Packages": [
         {
-          "PackageIdentifier": "Git.Git"
+          "PackageIdentifier": "JanDeDobbeleer.OhMyPosh"
         },
         {
-          "PackageIdentifier": "LizardByte.Sunshine"
+          "PackageIdentifier": "Git.Git"
         },
         {
           "PackageIdentifier": "VideoLAN.VLC"
@@ -32,13 +32,7 @@
           "PackageIdentifier": "Python.Launcher"
         },
         {
-          "PackageIdentifier": "MoonlightGameStreamingProject.Moonlight"
-        },
-        {
           "PackageIdentifier": "GitHub.GitHubDesktop"
-        },
-        {
-          "PackageIdentifier": "JanDeDobbeleer.OhMyPosh"
         },
         {
           "PackageIdentifier": "ajeetdsouza.zoxide"
