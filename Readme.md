@@ -1,3 +1,4 @@
+[![PSScriptAnalyzer](https://github.com/dhruvmistry2000/mypowershell/actions/workflows/powershell.yml/badge.svg)](https://github.com/dhruvmistry2000/mypowershell/actions/workflows/powershell.yml)
 # Welcome to the Setup Script Repository
 
 ![alt text](image.png)
