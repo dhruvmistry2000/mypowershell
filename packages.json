@@ -5,8 +5,8 @@
     {
       "Packages": [
         {
-					"PackageIdentifier": "junegunn.fzf"
-				},
+	  "PackageIdentifier": "junegunn.fzf"
+	},
         {
           "PackageIdentifier": "JanDeDobbeleer.OhMyPosh"
         },
