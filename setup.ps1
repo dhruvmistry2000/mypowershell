@@ -25,13 +25,6 @@ function Copy-Settings {
     Copy-Item -Path ./settings.json -Destination "C:\Users\$($env:USERNAME)\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json" -Force
     Write-Host "Settings copied successfully." -ForegroundColor Cyan
 }
-
-function Install-Fonts {
-    Write-Host "Installing fonts..." -ForegroundColor Magenta
-    .\fonts.ps1
-    Write-Host "Fonts installed successfully." -ForegroundColor Magenta
-}
 Install-Packages
 Copy-Profile
 Copy-Settings
-Install-Fonts
